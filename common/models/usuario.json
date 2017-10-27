@@ -26,13 +26,28 @@
     "fechaNac": {
       "type": "string"
     },
+    "foto": {
+      "type": "string",
+      "required": true
+    },
     "escuela": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "usuarios": {
+      "type": "hasMany",
+      "model": "login",
+      "foreignKey": ""
+    },
+    "tipoUsuario": {
+      "type": "belongsTo",
+      "model": "tipo-usuario",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -8,7 +8,18 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "libro": {
+      "type": "belongsTo",
+      "model": "libro",
+      "foreignKey": ""
+    },
+    "autors": {
+      "type": "belongsTo",
+      "model": "autor",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -21,7 +21,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "usuario": {
+      "type": "belongsTo",
+      "model": "usuario",
+      "foreignKey": ""
+    },
+    "tesis-tesina": {
+      "type": "belongsTo",
+      "model": "tesis-tesina",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

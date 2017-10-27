@@ -15,7 +15,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "codUsuario": {
+      "type": "belongsTo",
+      "model": "usuario",
+      "foreignKey": ""
+    },
+    "tipoValoracion": {
+      "type": "belongsTo",
+      "model": "tipo-valoracion",
+      "foreignKey": ""
+    },
+    "libro": {
+      "type": "belongsTo",
+      "model": "libro",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -11,15 +11,19 @@
       "type": "string",
       "required": true
     },
-    "edicio": {
+    "edicion": {
       "type": "string",
       "required": true
     },
-    "sbl": {
+    "isbn": {
       "type": "string",
       "required": true
     },
     "idioma": {
+      "type": "string",
+      "required": true
+    },
+    "portadaPhoto": {
       "type": "string",
       "required": true
     },
@@ -40,7 +44,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "libro": {
+      "type": "hasMany",
+      "model": "prestamo",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

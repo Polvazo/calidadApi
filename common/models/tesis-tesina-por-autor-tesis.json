@@ -8,7 +8,18 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "autor-tesis": {
+      "type": "belongsTo",
+      "model": "autor-tesis",
+      "foreignKey": ""
+    },
+    "tesis-tesina": {
+      "type": "belongsTo",
+      "model": "tesis-tesina",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
