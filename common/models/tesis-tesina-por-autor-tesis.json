@@ -1,0 +1,14 @@
+{
+  "name": "tesis-tesina-por-autor-tesis",
+  "plural": "tesistesina-porautortesis",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "prestamo",
+  "plural": "prestamos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha_emision": {
+      "type": "string",
+      "required": true
+    },
+    "fecha_entrega": {
+      "type": "string",
+      "required": true
+    },
+    "fecha_maxima": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

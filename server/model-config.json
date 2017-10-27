@@ -1,0 +1,99 @@
+
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "login": {
+    "dataSource": "db",
+    "public": true
+  },
+  "usuario": {
+    "dataSource": "db",
+    "public": true
+  },
+  "tipo-usuario": {
+    "dataSource": "db",
+    "public": true
+  },
+  "opinion": {
+    "dataSource": "db",
+    "public": true
+  },
+  "tipo-valoracion": {
+    "dataSource": "db",
+    "public": true
+  },
+  "prestamo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "libro": {
+    "dataSource": "db",
+    "public": true
+  },
+  "libros-por-autor": {
+    "dataSource":"mysqlDs",
+    "public": true
+  },
+  "autor": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "libros-por-categoria": {
+    "dataSource": "db",
+    "public": true
+  },
+  "categoria": {
+    "dataSource": "db",
+    "public": true
+  },
+  "tesis-tesina": {
+    "dataSource": "db",
+    "public": true
+  },
+  "tesis-tesina-por-categoria": {
+    "dataSource": "db",
+    "public": true
+  },
+  "tesis-tesina-por-autor-tesis": {
+    "dataSource": "db",
+    "public": true
+  },
+  "autor-tesis": {
+    "dataSource": "db",
+    "public": true
+  }
+}

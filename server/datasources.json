@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "CursoCalidad",
+    "username": "root",
+    "password": "pol1209",
+    "name": "mysqlDs",
+    "connector": "mysql"
+  }
+}

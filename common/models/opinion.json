@@ -1,0 +1,21 @@
+{
+  "name": "opinion",
+  "plural": "opiniones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "comentario": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

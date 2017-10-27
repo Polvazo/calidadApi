@@ -1,0 +1,14 @@
+{
+  "name": "libros-por-categoria",
+  "plural": "librosporcategoria",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

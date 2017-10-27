@@ -1,0 +1,41 @@
+{
+  "name": "tesis-tesina",
+  "plural": "tesistesina",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "resumen": {
+      "type": "string"
+    },
+    "escuela": {
+      "type": "string",
+      "required": true
+    },
+    "anio": {
+      "type": "number",
+      "required": true
+    },
+    "num_ingreso": {
+      "type": "number",
+      "required": true
+    },
+    "num_hojas": {
+      "type": "number"
+    },
+    "fecha_ingreso": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
