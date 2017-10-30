@@ -60,7 +60,7 @@
     "public": true
   },
   "libro": {
-    "dataSource": "mysqlDs",
+    "dataSource": "d",
     "public": true
   },
   "libros-por-autor": {
