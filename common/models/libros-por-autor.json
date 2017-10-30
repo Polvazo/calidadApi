@@ -6,18 +6,24 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": [
+      "autor",
+      "libro"
+    ]
+  },
   "properties": {},
   "validations": [],
   "relations": {
     "libro": {
       "type": "belongsTo",
       "model": "libro",
-      "foreignKey": ""
+      "foreignKey": "libroId"
     },
-    "autors": {
+    "autor": {
       "type": "belongsTo",
       "model": "autor",
-      "foreignKey": ""
+      "foreignKey": "autorId"
     }
   },
   "acls": [],

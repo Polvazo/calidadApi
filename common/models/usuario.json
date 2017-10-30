@@ -6,6 +6,11 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": [
+      "tipo-usuario"
+    ]
+  },
   "properties": {
     "cod_usuario": {
       "type": "number",
@@ -42,10 +47,15 @@
       "model": "login",
       "foreignKey": ""
     },
-    "tipoUsuario": {
+    "opinion": {
+      "type": "hasMany",
+      "model": "opinion",
+      "foreignKey": "codUsuarioId"
+    },
+    "tipo-usuario": {
       "type": "belongsTo",
       "model": "tipo-usuario",
-      "foreignKey": ""
+      "foreignKey":"tipoUsuarioId"
     }
   },
   "acls": [],

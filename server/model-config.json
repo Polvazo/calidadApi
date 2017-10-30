@@ -36,27 +36,27 @@
     "public": false
   },
   "login": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "usuario": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "tipo-usuario": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "opinion": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "tipo-valoracion": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "prestamo": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "libro": {
@@ -72,11 +72,11 @@
     "public": true
   },
   "libros-por-categoria": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "categoria": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "tesis-tesina": {
@@ -84,15 +84,15 @@
     "public": true
   },
   "tesis-tesina-por-categoria": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "tesis-tesina-por-autor-tesis": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "autor-tesis": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   }
 }

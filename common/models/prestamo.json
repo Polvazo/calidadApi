@@ -6,6 +6,13 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": [
+      "usuario",
+      "libro",
+      "tesis-tesina"
+    ]
+  },
   "properties": {
     "fecha_emision": {
       "type": "string",
@@ -25,13 +32,19 @@
     "usuario": {
       "type": "belongsTo",
       "model": "usuario",
-      "foreignKey": ""
+      "foreignKey": "usuarioId"
     },
     "tesis-tesina": {
       "type": "belongsTo",
       "model": "tesis-tesina",
-      "foreignKey": ""
+      "foreignKey": "tesis-tesinaId"
+    },
+    "libro": {
+      "type": "belongsTo",
+      "model": "libro",
+      "foreignKey": "libroId"
     }
+
   },
   "acls": [],
   "methods": {}

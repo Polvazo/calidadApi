@@ -6,6 +6,13 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": [
+      "libro",
+      "tipo-valoracion",
+      "usuario"
+    ]
+  },
   "properties": {
     "comentario": {
       "type": "string"
@@ -16,20 +23,20 @@
   },
   "validations": [],
   "relations": {
-    "codUsuario": {
+    "usuario": {
       "type": "belongsTo",
       "model": "usuario",
-      "foreignKey": ""
+      "foreignKey": "codUsuarioId"
     },
-    "tipoValoracion": {
+    "tipo-valoracion": {
       "type": "belongsTo",
       "model": "tipo-valoracion",
-      "foreignKey": ""
+      "foreignKey": "tipoValoracionId"
     },
     "libro": {
       "type": "belongsTo",
       "model": "libro",
-      "foreignKey": ""
+      "foreignKey": "libroId"
     }
   },
   "acls": [],

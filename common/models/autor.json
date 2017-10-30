@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "libros-por-autors": {
+      "type": "hasMany",
+      "model": "libros-por-autor",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

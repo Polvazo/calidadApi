@@ -6,18 +6,24 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": [
+      "autor-tesis",
+      "tesis-tesina"
+    ]
+  },
   "properties": {},
   "validations": [],
   "relations": {
     "autor-tesis": {
       "type": "belongsTo",
       "model": "autor-tesis",
-      "foreignKey": ""
+      "foreignKey": "autor-tesisId"
     },
     "tesis-tesina": {
       "type": "belongsTo",
       "model": "tesis-tesina",
-      "foreignKey": ""
+      "foreignKey": "tesis-tesinaId"
     }
   },
   "acls": [],

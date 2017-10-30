@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "mysqlDs": {
-    "host": "127.0.0.1",
+    "host": "sql11.freesqldatabase.com",
     "port": 3306,
-    "database": "CursoCalidad",
-    "username": "root",
-    "password": "pol1209",
+    "database": "sql11202123",
+    "username": "sql11202123",
+    "password": "uZKPi1LeR2",
     "name": "mysqlDs",
     "connector": "mysql"
   }

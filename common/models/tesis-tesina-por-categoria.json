@@ -6,18 +6,24 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": [
+      "tesis-tesina",
+      "categoria"
+    ]
+  },
   "properties": {},
   "validations": [],
   "relations": {
     "tesis-tesina": {
       "type": "belongsTo",
       "model": "tesis-tesina",
-      "foreignKey": ""
+      "foreignKey": "tesis-tesinaId"
     },
     "categoria": {
       "type": "belongsTo",
       "model": "categoria",
-      "foreignKey": ""
+      "foreignKey": "categoriaId"
     }
   },
   "acls": [],
